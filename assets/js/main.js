@@ -146,12 +146,6 @@ numero6 == numero7 || numero6 == numero8 || numero7 == numero8
     }
 }
 
-for(let valor of listaDePersonagens){
-    if(valor.includes("viajante")){
-        valor = "Viajante"
-    }
-}
-
 const resultado = document.getElementById("resultado1");
 const resultado2 = document.getElementById("resultado2");
 const button = document.querySelector("button")
